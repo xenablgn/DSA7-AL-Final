@@ -20,16 +20,22 @@ Organized into four features: id, dialogue, summary, and topic.
 
 #### abisee/cnn_dailymail
 Contains news articles and their highlights, used for inference testing.
+
 Training set: 287,113 articles
+
 Validation set: 13,368 articles
 Test set: 11,490 articles
 Organized into three features: article, highlights, and id.
 
 ### Key Steps
 **Model Upload** : Load the Microsoft-phi2 tokenizer and model.
+
 **Dataset Preparation**: Preprocess and tokenize the neil-code/dialogsum-test dataset.
+
 **Training**: Perform parameter-efficient fine-tuning of the Microsoft-phi2 model with specified training parameters.
+
 **Evaluation**: Compute the ROUGE score to evaluate model performance.
+
 **Inference**: Generate summaries using both the original and fine-tuned models for comparison on the abisee/cnn_dailymail dataset.
 
 ---
