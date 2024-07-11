@@ -12,11 +12,11 @@ Refer to the 2 Notebooks (finetune-phi-2-on-custom-dataset-v2.ipynb & finetune_p
 
 ### Datasets
 #### neil-code/dialogsum-test
-Contains 2,997 dialogues for training, validation, and testing.
-Training set: 1,999 dialogues
-Validation set: 499 dialogues
-Test set: 499 dialogues
-Organized into four features: id, dialogue, summary, and topic.
+- Contains 2,997 dialogues for training, validation, and testing.
+- Training set: 1,999 dialogues
+- Validation set: 499 dialogues
+- Test set: 499 dialogues
+- Organized into four features: id, dialogue, summary, and topic.
 
 #### abisee/cnn_dailymail
 Contains news articles and their highlights, used for inference testing.
@@ -24,7 +24,9 @@ Contains news articles and their highlights, used for inference testing.
 Training set: 287,113 articles
 
 Validation set: 13,368 articles
+
 Test set: 11,490 articles
+
 Organized into three features: article, highlights, and id.
 
 ### Key Steps
