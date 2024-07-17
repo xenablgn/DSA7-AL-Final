@@ -91,3 +91,34 @@ Refer to the Inference Notebook for detailed explanations and examples of zero-s
 - **Complex PEFT**: Extensive tuning with `r` and `lora_alpha` set to 64.
 - Both configurations targeted modules "q" and "v", employed a dropout rate of 0.05, and were tailored for sequence-to-sequence language modeling.
 
+---
+
+## PEFT Notebook for GPT-2
+### Overview
+Using the neil-code/dialogsum-test dataset, the notebook 'gpt2-finetuning.ipynb' illustrates the parameter-efficient fine-tuning (PEFT) procedure for the GPT-2 model. The objective is to evaluate the GPT-2's performance using the ROUGE score. 
+
+### Zeroshot Learning Inferences
+For thorough explanations and examples of zero-shot inferences, consult the notebook 'gpt2-inference.ipynb'. The GPT-2 model's performance on zero-shot tasks is examined in this section, offering insights into its capabilities without the need for explicit training on the particular tasks or datasets used for inference.
+
+### Datasets
+#### neil-code/dialogsum-test
+- Contains 2,997 dialogues for training, validation, and testing.
+- Training set: 1,999 dialogues
+- Validation set: 499 dialogues
+- Test set: 499 dialogues
+- Organized into four features: id, dialogue, summary, and topic.
+
+#### abisee/cnn_dailymail
+- Contains news articles and their highlights, used for inference testing
+- Training set: 287,113 articles
+- Validation set: 13,368 articles
+- Test set: 11,490 articles
+- Organized into three features: article, highlights, and id.
+
+### Key Steps
+- **Model Upload**: Import the model and tokenizer for GPT-2.
+- **Dataset Preparation**: The neil-code/dialogsum-test dataset is tokenized and preprocessed.
+- **Training**: Use the given training parameters to fine-tune the GPT-2 model in an efficient manner.
+- **Evaluation**: To assess the performance of the model, compute the ROUGE score.
+- **Inference**: Using the abisee/cnn_dailymail dataset (V 3.0.0), generate summaries utilizing both the original and refined models for comparison.
+
