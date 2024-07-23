@@ -1,7 +1,7 @@
 # Full-Fine Tuning and PEFT Tuning for T5 Models
 
 ### Specialization: Data Science and Analytics
-=======
+========================================================================================================================================================================
 
 # Zero-Shot Learning for Text Summarization: Improving Google FLAN's Performance through PEFT Fine-tuning for Adaptive Summary Generation and Classification
 
