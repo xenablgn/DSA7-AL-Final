@@ -1,7 +1,7 @@
 # Full-Fine Tuning and PEFT Tuning for T5 Models
 
 ### Specialization: Data Science and Analytics
-========================================================================================================================================================================
+---
 
 # Zero-Shot Learning for Text Summarization: Improving Google FLAN's Performance through PEFT Fine-tuning for Adaptive Summary Generation and Classification
 
@@ -37,8 +37,6 @@ Refer to the 2 Notebooks (finetune-phi-2-on-custom-dataset-v2.ipynb & finetune_p
 - **Inference**: Generate summaries using both the original and fine-tuned models for comparison on the abisee/cnn_dailymail dataset.
 
 ---
-
->>>>>>> ea4e10dc119a8732b9912827775a9ce42517a320
 
 ## Full-Fine Tuning Example Notebook for T5.1 and T5.2 Models
 
@@ -96,8 +94,6 @@ Refer to the Inference Notebook for detailed explanations and examples of zero-s
 - **Complex PEFT**: Extensive tuning with `r` and `lora_alpha` set to 64.
 - Both configurations targeted modules "q" and "v", employed a dropout rate of 0.05, and were tailored for sequence-to-sequence language modeling.
 
-<<<<<<< HEAD
-=======
 ---
 
 ## PEFT Notebook for GPT-2
