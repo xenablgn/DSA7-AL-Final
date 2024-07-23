@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-markdown_content = """
 # Full-Fine Tuning and PEFT Tuning for T5 Models
 
-## Author: Sena Nur Bilgin
 ### Specialization: Data Science and Analytics
 =======
 
@@ -128,8 +125,8 @@ For thorough explanations and examples of zero-shot inferences, consult the note
 ### Key Steps
 - **Model Upload**: Import the model and tokenizer for GPT-2.
 - **Dataset Preparation**: The neil-code/dialogsum-test dataset is tokenized and preprocessed.
-- **Training**: Use the given training parameters to fine-tune the GPT-2 model in an efficient manner.
-- **Evaluation**: To assess the performance of the model, compute the ROUGE score.
+- **Training**: Use the given training parameters to fine-tune the GPT-2 model efficiently.
+- **Evaluation**: To assess the model's performance, compute the ROUGE score.
 - **Inference**: Using the abisee/cnn_dailymail dataset (V 3.0.0), generate summaries utilizing both the original and refined models for comparison.
 
->>>>>>> ea4e10dc119a8732b9912827775a9ce42517a320
+
