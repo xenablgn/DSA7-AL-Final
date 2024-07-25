@@ -5,6 +5,8 @@ from io import StringIO
 from model_utils import load_model_and_tokenizer
 from evaluation import summarize_and_evaluate
 from utils import BASIC_PROMT, CLASS_PROMT, COT_PROMT
+import nltk
+nltk.download('punkt')
 
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
